@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'AaarghNormal';
+    src: url('../font/aaargh/Aaargh-webfont.eot');
+    src: url('../font/aaargh/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/aaargh/Aaargh-webfont.woff') format('woff'),
+         url('../font/aaargh/Aaargh-webfont.ttf') format('truetype'),
+         url('../font/aaargh/Aaargh-webfont.svg#AaarghNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

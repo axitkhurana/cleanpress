@@ -1,8 +1,9 @@
-$font-default: "proxima-nova-1", "proxima-nova-2", "Helvetica Neue", Arial, sans-serif;
-$font-mono: "proxima-nova-1", "proxima-nova-2", "Helvetica Neue", Arial, sans-serif;
+$font-default: "AaarghNormal", "Helvetica Neue", Arial, sans-serif;
+$font-mono: "DejaVu Sans Mono", Courier, "Helvetica Neue", Arial, sans-serif;
+$font-default-path: "/blog/font/aaargh/Aaargh-webfont";
 
 $font-icon: FontAwesome;
-$font-icon-path: "/font/fontawesome-webfont";
+$font-icon-path: "/blog/font/fontawesome-webfont";
 
 @font-face {
 	font-family: 'FontAwesome';
@@ -12,6 +13,17 @@ $font-icon-path: "/font/fontawesome-webfont";
 		url('#{$font-icon-path}.ttf') format('truetype'),
 		url('#{$font-icon-path}.svgz#FontAwesomeRegular') format('svg'),
 		url('#{$font-icon-path}.svg#FontAwesomeRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AaarghNormal';
+	src: url('#{$font-default-path}.eot');
+	src: url('#{$font-default-path}.eot?#iefix') format('embedded-opentype'),
+		url('#{$font-default-path}.woff') format('woff'),
+		url('#{$font-default-path}.ttf') format('truetype'),
+		url('#{$font-default-path}.svg#AaarghNormal') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
